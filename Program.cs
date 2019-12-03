@@ -1,52 +1,117 @@
-﻿using System;
+using System;
 
-namespace Lab4
+namespace lab6
 {
-    class Program
+    class Program 
     {
         static void Main(string[] args)
         {
+
+            //A one-dimensional array p contains four elements. The array access expressions to access each of the elements in p are __p[0]_, __p[1]_,__p[2]_and __p[3]_.
             {
-                for (int i = 1; i < 101; i++)
+                int[] array = new int[12];
+                Console.WriteLine("{0}{1,15}", "Index", "Month");
                 {
-                    Console.WriteLine(i);
+                    String[] month = new string[12];
+                    month[0] = "January";
+                    month[1] = "Febraury";
+                    month[2] = "March";
+                    month[3] = "April";
+                    month[4] = "May";
+                    month[5] = "June";
+                    month[6] = "July";
+                    month[7] = "August";
+                    month[8] = "September";
+                    month[9] = "October";
+                    month[10] = "November";
+                    month[11] = "December";
                     {
-                        if ((i % 2) == 0) { Console.WriteLine("Number is even"); }
-                        else if ((i % 2) != 0)
+                        for (int counter = 0; counter < array.Length; ++counter) ;
+                        Console.WriteLine("{0}{1,15}", counter, string[month]);
+
+
+namespace Lab06question3
+    {
+        class Program
+        {
+            static void Main(string[] args)
+            {
+            string[] seasons = { "Winter", "Spring", "Summer", "Autumn" };
+                Console.WriteLine("The Four Seasons");
+                foreach (string season in seasons)
+            {
+                Console.WriteLine(season)
+
+		
+
+
+
+
+
+{static void Main(string[] args)
+            {
+                int[] array; array = new int[1000];
+                {
+                    Random randomNumbers = new Random(1000);
+                    int randomNumber = randomNumber.Next();
+                    {
+                        foreach (randomNumber in randomNumber.Next(0, 100)) ;
+                            
+
+
+
+
+                    string[] names = new string[5]{ "Al Dente", "Anna Graham", "Earle Bird", "Ginger Rayle", "Iona Ford" };
+                            int i = 0;
+
+                            { for (int i = 0;
+                                    i < names.Length;
+                                    ++i) ;
+                                Console.WriteLine("{0,2}. {1}", i, names[i]); }
+                        }
+                    }
+                }
+
+
+                        int[] randomNumber = new int[1000];
+                        Random random = new Random();
+                        for (int i = 0; i < randomNumber.Length; i++)
                         {
-                            Console.WriteLine("Number is odd");
+                            randomNumber[i] = random.Next(0, 100);
+                        }
+                        foreach (int i in randomNumber)
+                        {
+                            Console.WriteLine(i.ToString());
                         }
 
-                        {
-                            Console.Write("Please enter a temperature: ");
-                            int temp = Convert.ToInt32(Console.ReadLine());
-                            if (temp >= 90) { Console.WriteLine("fish"); }
-                            else if (temp >= 80) { Console.WriteLine("Lion"); }
-                            else if (temp >= 70) { Console.WriteLine("Turle"); }
-                            else if (temp >= 60) { Console.WriteLine("Deer"); }
-                            else if (temp >= 50) { Console.WriteLine("Reindeer"); }
-                            else if (temp >= 40) { Console.WriteLine("Moose"); }
-                            else if (temp >= 20) { Console.WriteLine("Penguin"); }
-                            else if (temp >= 10) { Console.WriteLine("Polar Bear"); } else { Console.WriteLine("Bug"); }
 
 
 
 
-                            {
 
-                                int x = 10;
-                                while (x < 21)
-                                {
-                                    Console.WriteLine(x);
-                                }
-                            }
-                        }
+
 
 
                     }
                 }
-            }
-        }
+            
+        
 
-    }
-}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
